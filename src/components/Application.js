@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React from "react";
 
 import "components/Application.scss";
 import Appointment from "components/Appointment";
 import DayList from "./DayList";
 import { getAppointmentsForDay, getInterview, getInterviewersForDay } from "helpers/selectors";
-import useVisualMode from "hooks/useVisualMode";
 import useApplicationData from "hooks/useApplicationData";
 
 
@@ -25,7 +23,6 @@ export default function Application(props) {
       return (
         <Appointment
           key={obj.id}
-          {...obj}
           id={obj.id}
           time={obj.time}
           interview={interview}
