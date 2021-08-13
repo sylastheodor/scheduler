@@ -6,10 +6,15 @@ My first project built using the React framework!!  A simple little web app that
 
 ## Images
 
-!["Creating new appointments"](https://github.com/sylastheodor/scheduler/blob/master/docs/Screen%20Shot%202021-08-13%20at%202.56.54%20PM.png?raw=true)
+!["img1"](https://github.com/sylastheodor/scheduler/blob/master/docs/Screen%20Shot%202021-08-13%20at%202.56.54%20PM.png?raw=true)
 
-!["Highlighting an appointment to show the edit and delete options"](https://github.com/sylastheodor/scheduler/blob/master/docs/Screen%20Shot%202021-08-13%20at%202.57.26%20PM.png?raw=true)
+Creating new appointments in the Scheduler.
 
-!["A successfully edited appointment"](https://github.com/sylastheodor/scheduler/blob/master/docs/Screen%20Shot%202021-08-13%20at%202.58.15%20PM.png)
+!["img2"](https://github.com/sylastheodor/scheduler/blob/master/docs/Screen%20Shot%202021-08-13%20at%202.57.26%20PM.png?raw=true)
 
+Highlighting an appointment to show the edit and delete options.
+
+!["img3"](https://github.com/sylastheodor/scheduler/blob/master/docs/Screen%20Shot%202021-08-13%20at%202.58.15%20PM.png)
+
+A successfully edited appointment.
 ```
