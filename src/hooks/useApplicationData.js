@@ -41,13 +41,11 @@ export default function useApplicationData() {
     let spots = 0
     const dayIndex = state.days.findIndex(day => day.appointments.includes(id))
     const chosenDay = state.days[dayIndex]
-    console.log('chosenDay: ', chosenDay.name)
     chosenDay.appointments.forEach(num => {
       if (!state.appointments[num].interview) {
         spots += 1
       }
     })
-    console.log("spots: ", spots)
     const newDay = {
       ...chosenDay,
       spots

@@ -3,7 +3,7 @@ import "./styles.scss"
 
 export default function Show(props) {
   const interviewerObj = {...props.interviewer}
-  return <main className="appointment__card appointment__card--show">
+  return <main className="appointment__card appointment__card--show" data-testid="showbox">
   <section className="appointment__card-left">
     <h2 className="text--regular">{props.student}</h2>
     <section className="interviewer">

@@ -13,15 +13,15 @@ import { getInterview, getAppointmentsForDay } from "helpers/selectors";
 import { tsPropertySignature } from "@babel/types";
 
 export default function Appointment(props) {
-  const SHOW = "SHOW";
-  const EMPTY = "EMPTY";
+  const SHOW = "";
+  const EMPTY = null;
   const CREATE = "CREATE";
   const SAVING = "SAVING";
   const DELETING = "DELETING";
   const CONFIRM = "CONFIRM";
   const EDIT = "EDIT";
-  const SAVE_ERROR = "SAVE_ERROR"
-  const DELETE_ERROR = "DELETE_ERROR"
+  const SAVE_ERROR = "SAVE_ERROR";
+  const DELETE_ERROR = "DELETE_ERROR";
 
   
   const { mode, transition, back } = useVisualMode(
@@ -73,7 +73,7 @@ export default function Appointment(props) {
   return (
     <>
     <Header time={props.time} />
-    <article className="appointment" time={props.time}>
+    <article className="appointment" time={props.time} data-testid="appointment" value=''>
 
     {mode === EMPTY && <Empty onAdd={() => transition(CREATE)} />}
     
