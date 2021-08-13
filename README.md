@@ -2,22 +2,7 @@
 
 ## Setup
 
-Install dependencies with `npm install`.
+My first project built using the React framework!!  A simple little web app that allows you book, edit, and delete interviews between 12pm and 5pm throughout the week.  Tested with Jest and Cypress.
 
-## Running Webpack Development Server
 
-```sh
-npm start
-```
-
-## Running Jest Test Framework
-
-```sh
-npm test
-```
-
-## Running Storybook Visual Testbed
-
-```sh
-npm run storybook
 ```
