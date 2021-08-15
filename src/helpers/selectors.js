@@ -31,6 +31,4 @@ const getInterviewersForDay = function(state, day) {
   }
 }
 
-//code review this one it feels bad.
-
 export { getAppointmentsForDay, getInterview, getInterviewersForDay }
